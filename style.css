@@ -1,0 +1,41 @@
+/*Selector {
+	Property:Value;
+}*/
+*{
+	text-align: right;
+}
+body{
+	 background-image:url(backgroundimage.jpg) ;
+	 background-size: cover;
+}
+h2 + p:hover{
+	color: darkred;
+	text-align:center;
+	border:5px solid purple;
+	cursor:pointer;
+}
+p{
+	text-decoration: uppercase;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size:100%;
+	font-family: "Sofia", sans-serif;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.webtext:last-child{
+	border: 5px dashed green;
+}
+.active:first-child{
+	color: red;
+}
+#div1{
+	background:rgba(0,0,255,0.2);
+}
+#div2{
+	background:rgba(255,0,0,0.2);
+}
+ 
